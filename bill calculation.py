@@ -14,7 +14,7 @@ def coupons_to_use(coupon_amt):
 def coupon_calc(coupon_amt, bill_amt):
     coupon1=bill_amt*0.1
     if coupon_amt>coupon1:
-        return("coupon remaining" str(coupon_amt-coupon1), 
+        return("coupon remaining" +str(coupon_amt-coupon1), 
                "")
 def select_calc():
     print("1.bill_val::")
